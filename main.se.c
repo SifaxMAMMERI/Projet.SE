@@ -130,7 +130,8 @@ int main() {
     for (int i = 0; i < n2; i++)
         for (int j = 0; j < m2; j++)
             scanf("%d", &C[i][j]);
-
+      sauvegarderMatrice(B, "matriceB.txt");
+      chargerMatrice(C, "matriceC.txt");
     // Initialiser la matrice résultante A avec des 0
     for (int i = 0; i < n1; i++)
         for (int j = 0; j < m2; j++)
