@@ -1,5 +1,7 @@
 # Projet.SE  
-Ce projet a été réalisé en collaboration avec ZIOUI Lounes ( groupe 2) 
+                      " Ce projet a été réalisé en collaboration avec ZIOUI Lounes  "
+
+                
 Ce qui concerne les questions voici les réponse : 
 
 Q1: Quelles sont les structures de données à utiliser ?
@@ -13,6 +15,9 @@ Q1: Quelles sont les structures de données à utiliser ?
 Q2: Comment allez-vous protéger l'accès à ces données?
      
         on utulise des sémaphores pour synchroniser l'accès aux données partagées entre les threads ( empty , full ,mutex)
+        empty :  Gère la quantité d'espace vide dans le tampon qui stocke les résultats intermédiaires
+        full :  Gère la quantité d'espace occupé dans le tampon
+        mutex : Assure un accès exclusif au tampon partagé entre les threads
 
 Q3: Quels sont les risques?
 
