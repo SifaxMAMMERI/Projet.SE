@@ -6,7 +6,7 @@
 
 #define MAX_SIZE 5  
 
-int n1, m1, n2, m2;       /
+int n1, m1, n2, m2;       
 int B[MAX_SIZE][MAX_SIZE], C[MAX_SIZE][MAX_SIZE], A[MAX_SIZE][MAX_SIZE]; 
 int T[MAX_SIZE];          
 
