@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <semaphore.h>
-#include <time.h>
+
 
 #define MAX_SIZE 5  
 
